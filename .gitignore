@@ -138,6 +138,7 @@ celerybeat.pid
 .env
 .envrc
 .venv
+.retail-venv
 .doc-reader-venv
 env/
 venv/
@@ -212,5 +213,6 @@ temp.pdf
 
 *.png
 
+# Ignore all SQLite database files
 *.db
 *.sqlite3
